@@ -31,8 +31,8 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 # print(new_list)
 
 # zipping
-name = ['Husnain', 'Hassan', 'Awais', 'Zaman']
-hero = ['Superman', 'Spiderman', 'Batman', 'Ironman']
+name = ['Husain', 'Hassan', 'Awais', 'Zaman']
+hero = ['Superman', 'Spider man', 'Batman', 'Ironman']
 
 # Using zip to pair the items
 zipped_list = zip(name, hero)
