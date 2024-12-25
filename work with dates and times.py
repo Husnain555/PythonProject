@@ -1,0 +1,11 @@
+import datetime
+date = datetime.datetime.now()
+print(date)
+date_in_string = date.strftime("%d/%m/%Y %H:%M:%S")
+print(date_in_string)
+date_inutc = date.utcnow()
+print(date_inutc)
+time_stamp = date.timestamp()
+print(time_stamp)
+time_stamp_in_string = datetime.datetime.fromtimestamp(time_stamp)
+print(time_stamp_in_string)
